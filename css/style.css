@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    border-color: #E2E2E2;
+}
+
+@font-face {
+    /* đặt tên */
+    font-family: "Open Sans Extra";
+    src: url(../font/OpenSans-ExtraBold.ttf);
+}
+
+.line-bot {
+    border: 2px solid #a91707;
+    width: 20%;
+}
+
+.upt {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.title-item {
+    color: #83DC36;
+}
+
+
+/* --------------------------- scroll back to top */
+
+#back-top {
+    position: fixed;
+    bottom: 0px;
+    margin-left: -90px;
+}
+
+#back-top a {
+    width: 108px;
+    display: block;
+    text-align: center;
+    font: 11px/100% Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #bbb;
+    /* background color transition */
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+
+#back-top a:hover {
+    color: #000;
+}
+
+
+/* arrow icon (span tag) */
+
+#back-top span {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-bottom: 25px;
+    background: #83dc36 url(up-arrow.png) no-repeat center;
+    /* rounded corners */
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    /* background color transition */
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+
+#back-top a:hover span {
+    background-color: #777;
+}
+
+#pagewrap {
+    float: right;
+}

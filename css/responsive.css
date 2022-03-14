@@ -1,0 +1,122 @@
+                @media (max-width:767px) {
+                    header .header-top {
+                        background-image: none;
+                        background-color: #333;
+                        text-align: center;
+                    }
+                    header .top-header .content-header {
+                        text-align: center;
+                        padding: 0;
+                    }
+                    header .bot-header {
+                        text-align: center;
+                    }
+                    header .search-form {
+                        width: 80%;
+                    }
+                    header .contact {
+                        padding-top: 20px;
+                    }
+                    /* MENU */
+                    .menu_Bar .collapse {
+                        padding-left: 15px;
+                        padding-right: 15px;
+                    }
+                    .container>.navbar-header {
+                        background-color: #83DC36;
+                    }
+                    .navbar-inverse .navbar-toggle:focus,
+                    .navbar-inverse .navbar-toggle:hover {
+                        background-color: transparent;
+                    }
+                    .navbar-inverse .navbar-toggle {
+                        border-color: transparent;
+                    }
+                    .slide-header {
+                        display: none;
+                    }
+                    /* MENU DROPDOWN */
+                    .nav .menu-dropdown {
+                        width: 100%;
+                        border-radius: 1px;
+                    }
+                    .navbar-nav {
+                        border-bottom: 1px solid #E2E2E2;
+                        margin: 0px
+                    }
+                    .dropdown-menu li a {
+                        text-align: center;
+                    }
+                    .navbar-nav>li>.dropdown-menu {
+                        width: 100%;
+                    }
+                    .navbar-nav>li>.dropdown-menu a {
+                        text-align: center;
+                    }
+                    .nav>.dropdown>a:hover {
+                        border-top-left-radius: 0px;
+                        border-top-right-radius: 0px;
+                    }
+                    .menu_Bar .collapse {
+                        padding: 0;
+                    }
+                    nav .item-menu li {
+                        margin-right: 0px;
+                    }
+                    .nav .menu-dropdown a i {
+                        display: none;
+                    }
+                    .nav .menu-dropdown .caret {
+                        display: inline;
+                    }
+                    /* MAIN */
+                    .catagory .selection-pro li {
+                        font-size: 14px;
+                    }
+                    .pagination {
+                        display: none;
+                    }
+                    .main-left .hot-online {
+                        display: none;
+                    }
+                    /* FOOTER */
+                    footer {
+                        width: 100%;
+                        background-image: none;
+                        background-color: #333333;
+                        height: 920px;
+                    }
+                    footer .menu-footer {
+                        display: none;
+                    }
+                    footer .info-company,
+                    .policy,
+                    .fanpage,
+                    .info-contact {
+                        text-align: center;
+                        padding-top: 20px;
+                        line-height: 30px;
+                    }
+                    footer .policy li {
+                        list-style: none;
+                    }
+                    footer .info-company .left-text {
+                        text-align: right;
+                        width: 35%;
+                    }
+                    footer .info-company .right-text {
+                        text-align: left;
+                        width: 65%;
+                        margin-right: -25px;
+                    }
+                    footer .content-footer {
+                        padding-bottom: 40px;
+                    }
+                    footer .copyright,
+                    footer .text-right {
+                        text-align: center;
+                    }
+                    /* nav .item-menu li:hover ul {
+                        display: none!important;
+                    } */
+                }

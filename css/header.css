@@ -1,0 +1,104 @@
+/* header top */
+
+header .top-header {
+    background-image: url("../img/top-header.png");
+    color: white;
+    background-repeat: round;
+}
+
+header .content-header {
+    font-size: 13px;
+    padding: 9px 0 0 0;
+}
+
+header .contact i,
+header .header-icon {
+    margin-right: 20px;
+}
+
+header .contact .fa,
+header .header-icon a .fa {
+    color: #83DC36;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+header .header-icon a:hover .fa {
+    color: white;
+}
+
+header .bot-header {
+    padding-top: 25px;
+}
+
+header .search-session {
+    padding-top: 13px;
+}
+
+header .search-form {
+    position: relative;
+}
+
+header .form_r {
+    border: 1px solid #83DC36;
+    border-bottom: 3px solid #83DC36;
+    border-radius: 22px;
+}
+
+header .search {
+    display: flex;
+}
+
+header .search-form .btn-default {
+    position: absolute;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    right: 0px;
+    top: 0px;
+    width: 60px;
+    background-color: #83DC36;
+}
+
+header .search-form .btn-default:hover,
+header .search-form .btn-default:focus {
+    border: none;
+    background-color: rgb(146, 245, 60);
+}
+
+header .contact {
+    padding-top: 5px;
+}
+
+
+/* header bottom */
+
+.support {
+    display: flex;
+    text-transform: uppercase;
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+.text {
+    padding: 0px 10px;
+    margin: 5px;
+}
+
+.phone {
+    padding: 15px 0;
+}
+
+header .header-bot .change-contact {
+    padding: 5px 0;
+    display: flex;
+}
+
+header .header-bot .change-contact .text-change {
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 60%;
+}
+
+header .header-bot .change-contact .contact {
+    width: 40%;
+}

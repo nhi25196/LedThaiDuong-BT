@@ -1,0 +1,82 @@
+footer {
+    background-image: url(../img/footer01.png);
+    color: white;
+    background-repeat: round;
+    height: 440px;
+}
+
+.menu-footer {
+    text-align: center;
+    width: 1000px;
+    padding: 10px 0;
+}
+
+footer .menu-footer ul li {
+    display: inline;
+    /* padding: 0px 4px; */
+    text-align: center;
+    margin: 0 17px;
+}
+
+footer .menu-footer ul li a {
+    color: white;
+}
+
+footer .menu-footer ul li a:hover {
+    color: #83DC36;
+    background-color: #323232;
+}
+
+footer .content-footer {
+    padding-bottom: 82px;
+}
+
+footer .content-footer p {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.info-company,
+.policy,
+.fanpage,
+.info-contact {
+    line-height: 23px;
+    font-size: 13px;
+}
+
+.policy ul {
+    padding-left: 15px;
+}
+
+.policy li a {
+    color: white;
+}
+
+.title-footer {
+    padding-bottom: 15px;
+}
+
+.info-company .left-text {
+    width: 50px;
+    float: left;
+}
+
+.info-company .right-text {
+    width: 170px;
+    /* margin: 5px; */
+    margin-right: 33px;
+}
+
+.policy {
+    line-height: 30px;
+    padding-right: 20px;
+}
+
+.policy a:hover {
+    color: #83DC36;
+    text-decoration: none;
+}
+
+footer .copyright p {
+    font-style: italic;
+}
